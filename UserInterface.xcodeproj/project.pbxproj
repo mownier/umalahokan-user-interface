@@ -7,13 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2CA1CF1174392E1FDB70D8F9 /* Pods_Umalahokan_ServiceProvider_UserInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 854A95945FE8DFC235176BC7 /* Pods_Umalahokan_ServiceProvider_UserInterface.framework */; };
-		8013CC0E194496E999308E9A /* Pods_UserInterfaceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A453FB95E74FB95F305CE27 /* Pods_UserInterfaceTests.framework */; };
+		3E21D060D218DD25A30DDB35 /* Pods_UserInterfaceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CE6A1152B3CA416ABFE1D9 /* Pods_UserInterfaceTests.framework */; };
+		6EA06DCE37227EFE5384206A /* Pods_UserInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20760B0FBA4F0924320D4F84 /* Pods_UserInterface.framework */; };
 		B93103EA1EB1C60A00780F5A /* LoginModuleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93103E91EB1C60A00780F5A /* LoginModuleTest.swift */; };
+		B96A9DDF1EBC69AD00B5462F /* AuthRemoteService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A9DD51EBC69AD00B5462F /* AuthRemoteService.swift */; };
+		B96A9DE01EBC69AD00B5462F /* AuthServiceErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A9DD61EBC69AD00B5462F /* AuthServiceErrorExtension.swift */; };
+		B96A9DE11EBC69AD00B5462F /* DatabaseAccessErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A9DD71EBC69AD00B5462F /* DatabaseAccessErrorExtension.swift */; };
+		B96A9DE21EBC69AD00B5462F /* FIRDataSnapshotExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A9DD81EBC69AD00B5462F /* FIRDataSnapshotExtension.swift */; };
+		B96A9DE31EBC69AD00B5462F /* FirebaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A9DD91EBC69AD00B5462F /* FirebaseHelper.swift */; };
+		B96A9DE41EBC69AD00B5462F /* RemoteDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A9DDA1EBC69AD00B5462F /* RemoteDatabase.swift */; };
+		B96A9DE51EBC69AD00B5462F /* RemoteDatabaseAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A9DDB1EBC69AD00B5462F /* RemoteDatabaseAccess.swift */; };
+		B96A9DE61EBC69AD00B5462F /* RemoteDatabaseSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A9DDC1EBC69AD00B5462F /* RemoteDatabaseSource.swift */; };
+		B96A9DE71EBC69AD00B5462F /* ResourcePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A9DDD1EBC69AD00B5462F /* ResourcePath.swift */; };
+		B96A9DE81EBC69AD00B5462F /* UserExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A9DDE1EBC69AD00B5462F /* UserExtension.swift */; };
+		B96A9DF01EBC69D300B5462F /* LoginArbiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A9DEA1EBC69D300B5462F /* LoginArbiter.swift */; };
+		B96A9DF11EBC69D300B5462F /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A9DEB1EBC69D300B5462F /* LoginInteractor.swift */; };
+		B96A9DF21EBC69D300B5462F /* LoginModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A9DEC1EBC69D300B5462F /* LoginModule.swift */; };
+		B96A9DF31EBC69D300B5462F /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A9DED1EBC69D300B5462F /* LoginPresenter.swift */; };
+		B96A9DF41EBC69D300B5462F /* LoginScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A9DEE1EBC69D300B5462F /* LoginScene.swift */; };
+		B96A9DF51EBC69D300B5462F /* LoginWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A9DEF1EBC69D300B5462F /* LoginWireframe.swift */; };
+		B96A9DFE1EBC69F500B5462F /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A9DF71EBC69F500B5462F /* AuthService.swift */; };
+		B96A9DFF1EBC69F500B5462F /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A9DF81EBC69F500B5462F /* Contact.swift */; };
+		B96A9E001EBC69F500B5462F /* DatabaseAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A9DF91EBC69F500B5462F /* DatabaseAccess.swift */; };
+		B96A9E011EBC69F500B5462F /* DatabaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A9DFA1EBC69F500B5462F /* DatabaseProtocol.swift */; };
+		B96A9E021EBC69F500B5462F /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A9DFB1EBC69F500B5462F /* Mood.swift */; };
+		B96A9E031EBC69F500B5462F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A9DFC1EBC69F500B5462F /* User.swift */; };
+		B96A9E041EBC69F500B5462F /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96A9DFD1EBC69F500B5462F /* UserService.swift */; };
+		B96A9E071EBC6A6B00B5462F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B96A9E061EBC6A6B00B5462F /* GoogleService-Info.plist */; };
 		B9CEFD421E94D03400397D61 /* UserInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CEFD381E94D03400397D61 /* UserInterface.framework */; };
 		B9CEFD491E94D03400397D61 /* UserInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = B9CEFD3B1E94D03400397D61 /* UserInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9CEFD541E94D05900397D61 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CEFD531E94D05900397D61 /* LoginViewController.swift */; };
-		B9CEFD581E94D07700397D61 /* Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9CEFD571E94D07700397D61 /* Login.framework */; };
 		B9CEFD5B1E94D5AB00397D61 /* LoginViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CEFD5A1E94D5AB00397D61 /* LoginViewControllerTest.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,14 +51,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		497690DAAF059BF758C147F1 /* Pods_Umalahokan_UserInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Umalahokan_UserInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		58A4C1B5EA40E64B5873FEED /* Pods-Umalahokan-ServiceProvider-UserInterface.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Umalahokan-ServiceProvider-UserInterface.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Umalahokan-ServiceProvider-UserInterface/Pods-Umalahokan-ServiceProvider-UserInterface.debug.xcconfig"; sourceTree = "<group>"; };
-		5FE4497850B15F3AA60FA98F /* Pods-UserInterfaceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserInterfaceTests.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-UserInterfaceTests/Pods-UserInterfaceTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7768E72473C33863DD0AB5A3 /* Pods-Umalahokan-ServiceProvider-UserInterface.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Umalahokan-ServiceProvider-UserInterface.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Umalahokan-ServiceProvider-UserInterface/Pods-Umalahokan-ServiceProvider-UserInterface.release.xcconfig"; sourceTree = "<group>"; };
-		854A95945FE8DFC235176BC7 /* Pods_Umalahokan_ServiceProvider_UserInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Umalahokan_ServiceProvider_UserInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A453FB95E74FB95F305CE27 /* Pods_UserInterfaceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UserInterfaceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B013B0EEE0A0D4D44975C842 /* Pods-Umalahokan-UserInterface.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Umalahokan-UserInterface.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Umalahokan-UserInterface/Pods-Umalahokan-UserInterface.debug.xcconfig"; sourceTree = "<group>"; };
+		1D4A4113126A30DAB8920F8B /* Pods-UserInterface.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserInterface.release.xcconfig"; path = "Pods/Target Support Files/Pods-UserInterface/Pods-UserInterface.release.xcconfig"; sourceTree = "<group>"; };
+		20760B0FBA4F0924320D4F84 /* Pods_UserInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UserInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		654185DE18237E28C75F2656 /* Pods-UserInterfaceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserInterfaceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UserInterfaceTests/Pods-UserInterfaceTests.release.xcconfig"; sourceTree = "<group>"; };
+		79CE6A1152B3CA416ABFE1D9 /* Pods_UserInterfaceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UserInterfaceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88229F419B4D8D9765F2C3B0 /* Pods-UserInterfaceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserInterfaceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UserInterfaceTests/Pods-UserInterfaceTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B93103E91EB1C60A00780F5A /* LoginModuleTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModuleTest.swift; sourceTree = "<group>"; };
+		B96A9DD51EBC69AD00B5462F /* AuthRemoteService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthRemoteService.swift; path = Modules/ServiceProvider/ServiceProvider/AuthRemoteService.swift; sourceTree = "<group>"; };
+		B96A9DD61EBC69AD00B5462F /* AuthServiceErrorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthServiceErrorExtension.swift; path = Modules/ServiceProvider/ServiceProvider/AuthServiceErrorExtension.swift; sourceTree = "<group>"; };
+		B96A9DD71EBC69AD00B5462F /* DatabaseAccessErrorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseAccessErrorExtension.swift; path = Modules/ServiceProvider/ServiceProvider/DatabaseAccessErrorExtension.swift; sourceTree = "<group>"; };
+		B96A9DD81EBC69AD00B5462F /* FIRDataSnapshotExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FIRDataSnapshotExtension.swift; path = Modules/ServiceProvider/ServiceProvider/FIRDataSnapshotExtension.swift; sourceTree = "<group>"; };
+		B96A9DD91EBC69AD00B5462F /* FirebaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirebaseHelper.swift; path = Modules/ServiceProvider/ServiceProvider/FirebaseHelper.swift; sourceTree = "<group>"; };
+		B96A9DDA1EBC69AD00B5462F /* RemoteDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RemoteDatabase.swift; path = Modules/ServiceProvider/ServiceProvider/RemoteDatabase.swift; sourceTree = "<group>"; };
+		B96A9DDB1EBC69AD00B5462F /* RemoteDatabaseAccess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RemoteDatabaseAccess.swift; path = Modules/ServiceProvider/ServiceProvider/RemoteDatabaseAccess.swift; sourceTree = "<group>"; };
+		B96A9DDC1EBC69AD00B5462F /* RemoteDatabaseSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RemoteDatabaseSource.swift; path = Modules/ServiceProvider/ServiceProvider/RemoteDatabaseSource.swift; sourceTree = "<group>"; };
+		B96A9DDD1EBC69AD00B5462F /* ResourcePath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResourcePath.swift; path = Modules/ServiceProvider/ServiceProvider/ResourcePath.swift; sourceTree = "<group>"; };
+		B96A9DDE1EBC69AD00B5462F /* UserExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserExtension.swift; path = Modules/ServiceProvider/ServiceProvider/UserExtension.swift; sourceTree = "<group>"; };
+		B96A9DEA1EBC69D300B5462F /* LoginArbiter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginArbiter.swift; path = Modules/Login/Login/LoginArbiter.swift; sourceTree = "<group>"; };
+		B96A9DEB1EBC69D300B5462F /* LoginInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginInteractor.swift; path = Modules/Login/Login/LoginInteractor.swift; sourceTree = "<group>"; };
+		B96A9DEC1EBC69D300B5462F /* LoginModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginModule.swift; path = Modules/Login/Login/LoginModule.swift; sourceTree = "<group>"; };
+		B96A9DED1EBC69D300B5462F /* LoginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginPresenter.swift; path = Modules/Login/Login/LoginPresenter.swift; sourceTree = "<group>"; };
+		B96A9DEE1EBC69D300B5462F /* LoginScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginScene.swift; path = Modules/Login/Login/LoginScene.swift; sourceTree = "<group>"; };
+		B96A9DEF1EBC69D300B5462F /* LoginWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginWireframe.swift; path = Modules/Login/Login/LoginWireframe.swift; sourceTree = "<group>"; };
+		B96A9DF71EBC69F500B5462F /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthService.swift; path = Modules/Core/Core/AuthService.swift; sourceTree = "<group>"; };
+		B96A9DF81EBC69F500B5462F /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Contact.swift; path = Modules/Core/Core/Contact.swift; sourceTree = "<group>"; };
+		B96A9DF91EBC69F500B5462F /* DatabaseAccess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseAccess.swift; path = Modules/Core/Core/DatabaseAccess.swift; sourceTree = "<group>"; };
+		B96A9DFA1EBC69F500B5462F /* DatabaseProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseProtocol.swift; path = Modules/Core/Core/DatabaseProtocol.swift; sourceTree = "<group>"; };
+		B96A9DFB1EBC69F500B5462F /* Mood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Mood.swift; path = Modules/Core/Core/Mood.swift; sourceTree = "<group>"; };
+		B96A9DFC1EBC69F500B5462F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Modules/Core/Core/User.swift; sourceTree = "<group>"; };
+		B96A9DFD1EBC69F500B5462F /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserService.swift; path = Modules/Core/Core/UserService.swift; sourceTree = "<group>"; };
+		B96A9E061EBC6A6B00B5462F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B9CEFD381E94D03400397D61 /* UserInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UserInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9CEFD3B1E94D03400397D61 /* UserInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInterface.h; sourceTree = "<group>"; };
 		B9CEFD3C1E94D03400397D61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,8 +90,7 @@
 		B9CEFD571E94D07700397D61 /* Login.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Login.framework; path = "../../../../../../Library/Developer/Xcode/DerivedData/Umalahokan-fugcbvoipmqliwfxmepdglekpjqz/Build/Products/Debug-iphonesimulator/Login.framework"; sourceTree = "<group>"; };
 		B9CEFD5A1E94D5AB00397D61 /* LoginViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewControllerTest.swift; sourceTree = "<group>"; };
 		B9CEFD5D1E94D5FE00397D61 /* Viper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Viper.framework; path = "/Users/mounir/Documents/Projects/iOS/me/Umalahokan/Pods/../build/Debug-iphoneos/Viper/Viper.framework"; sourceTree = "<absolute>"; };
-		C1C01715632DCAD3CDF8086D /* Pods-UserInterfaceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserInterfaceTests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-UserInterfaceTests/Pods-UserInterfaceTests.release.xcconfig"; sourceTree = "<group>"; };
-		D6972BC43AF672B1D197C759 /* Pods-Umalahokan-UserInterface.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Umalahokan-UserInterface.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Umalahokan-UserInterface/Pods-Umalahokan-UserInterface.release.xcconfig"; sourceTree = "<group>"; };
+		D278872BCC5535328D30EA39 /* Pods-UserInterface.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserInterface.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UserInterface/Pods-UserInterface.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9CEFD581E94D07700397D61 /* Login.framework in Frameworks */,
-				2CA1CF1174392E1FDB70D8F9 /* Pods_Umalahokan_ServiceProvider_UserInterface.framework in Frameworks */,
+				6EA06DCE37227EFE5384206A /* Pods_UserInterface.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,34 +107,88 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9CEFD421E94D03400397D61 /* UserInterface.framework in Frameworks */,
-				8013CC0E194496E999308E9A /* Pods_UserInterfaceTests.framework in Frameworks */,
+				3E21D060D218DD25A30DDB35 /* Pods_UserInterfaceTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3CAD95CDD5AE6DF381EA48C9 /* Pods */ = {
+		6EAB36288DF017BBA59B485F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B013B0EEE0A0D4D44975C842 /* Pods-Umalahokan-UserInterface.debug.xcconfig */,
-				D6972BC43AF672B1D197C759 /* Pods-Umalahokan-UserInterface.release.xcconfig */,
-				5FE4497850B15F3AA60FA98F /* Pods-UserInterfaceTests.debug.xcconfig */,
-				C1C01715632DCAD3CDF8086D /* Pods-UserInterfaceTests.release.xcconfig */,
-				58A4C1B5EA40E64B5873FEED /* Pods-Umalahokan-ServiceProvider-UserInterface.debug.xcconfig */,
-				7768E72473C33863DD0AB5A3 /* Pods-Umalahokan-ServiceProvider-UserInterface.release.xcconfig */,
+				D278872BCC5535328D30EA39 /* Pods-UserInterface.debug.xcconfig */,
+				1D4A4113126A30DAB8920F8B /* Pods-UserInterface.release.xcconfig */,
+				88229F419B4D8D9765F2C3B0 /* Pods-UserInterfaceTests.debug.xcconfig */,
+				654185DE18237E28C75F2656 /* Pods-UserInterfaceTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		B96A9DD41EBC698B00B5462F /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B96A9E051EBC6A0000B5462F /* Core */,
+				B96A9DF61EBC69D800B5462F /* Login */,
+				B96A9DE91EBC69C000B5462F /* ServiceProvider */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		B96A9DE91EBC69C000B5462F /* ServiceProvider */ = {
+			isa = PBXGroup;
+			children = (
+				B96A9E061EBC6A6B00B5462F /* GoogleService-Info.plist */,
+				B96A9DD51EBC69AD00B5462F /* AuthRemoteService.swift */,
+				B96A9DD61EBC69AD00B5462F /* AuthServiceErrorExtension.swift */,
+				B96A9DD71EBC69AD00B5462F /* DatabaseAccessErrorExtension.swift */,
+				B96A9DD81EBC69AD00B5462F /* FIRDataSnapshotExtension.swift */,
+				B96A9DD91EBC69AD00B5462F /* FirebaseHelper.swift */,
+				B96A9DDA1EBC69AD00B5462F /* RemoteDatabase.swift */,
+				B96A9DDB1EBC69AD00B5462F /* RemoteDatabaseAccess.swift */,
+				B96A9DDC1EBC69AD00B5462F /* RemoteDatabaseSource.swift */,
+				B96A9DDD1EBC69AD00B5462F /* ResourcePath.swift */,
+				B96A9DDE1EBC69AD00B5462F /* UserExtension.swift */,
+			);
+			name = ServiceProvider;
+			sourceTree = "<group>";
+		};
+		B96A9DF61EBC69D800B5462F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B96A9DEA1EBC69D300B5462F /* LoginArbiter.swift */,
+				B96A9DEB1EBC69D300B5462F /* LoginInteractor.swift */,
+				B96A9DEC1EBC69D300B5462F /* LoginModule.swift */,
+				B96A9DED1EBC69D300B5462F /* LoginPresenter.swift */,
+				B96A9DEE1EBC69D300B5462F /* LoginScene.swift */,
+				B96A9DEF1EBC69D300B5462F /* LoginWireframe.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		B96A9E051EBC6A0000B5462F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B96A9DF71EBC69F500B5462F /* AuthService.swift */,
+				B96A9DF81EBC69F500B5462F /* Contact.swift */,
+				B96A9DF91EBC69F500B5462F /* DatabaseAccess.swift */,
+				B96A9DFA1EBC69F500B5462F /* DatabaseProtocol.swift */,
+				B96A9DFB1EBC69F500B5462F /* Mood.swift */,
+				B96A9DFC1EBC69F500B5462F /* User.swift */,
+				B96A9DFD1EBC69F500B5462F /* UserService.swift */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 		B9CEFD2E1E94D03400397D61 = {
 			isa = PBXGroup;
 			children = (
+				B96A9DD41EBC698B00B5462F /* Modules */,
 				B9CEFD3A1E94D03400397D61 /* UserInterface */,
 				B9CEFD451E94D03400397D61 /* UserInterfaceTests */,
 				B9CEFD391E94D03400397D61 /* Products */,
 				B9CEFD561E94D07700397D61 /* Frameworks */,
-				3CAD95CDD5AE6DF381EA48C9 /* Pods */,
+				6EAB36288DF017BBA59B485F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,9 +241,8 @@
 			children = (
 				B9CEFD5D1E94D5FE00397D61 /* Viper.framework */,
 				B9CEFD571E94D07700397D61 /* Login.framework */,
-				497690DAAF059BF758C147F1 /* Pods_Umalahokan_UserInterface.framework */,
-				9A453FB95E74FB95F305CE27 /* Pods_UserInterfaceTests.framework */,
-				854A95945FE8DFC235176BC7 /* Pods_Umalahokan_ServiceProvider_UserInterface.framework */,
+				20760B0FBA4F0924320D4F84 /* Pods_UserInterface.framework */,
+				79CE6A1152B3CA416ABFE1D9 /* Pods_UserInterfaceTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -186,12 +282,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9CEFD4C1E94D03400397D61 /* Build configuration list for PBXNativeTarget "UserInterface" */;
 			buildPhases = (
-				5FAD76AAB624C9D448124864 /* [CP] Check Pods Manifest.lock */,
+				5EC8B05C5799B8AFED1BEDF8 /* [CP] Check Pods Manifest.lock */,
 				B9CEFD331E94D03400397D61 /* Sources */,
 				B9CEFD341E94D03400397D61 /* Frameworks */,
 				B9CEFD351E94D03400397D61 /* Headers */,
 				B9CEFD361E94D03400397D61 /* Resources */,
-				C09366CF109217187EEB7FF7 /* [CP] Copy Pods Resources */,
+				7A27CF1DC49070A9BF19C928 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,12 +302,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9CEFD4F1E94D03400397D61 /* Build configuration list for PBXNativeTarget "UserInterfaceTests" */;
 			buildPhases = (
-				1B7DC3E2EC6DE01CAC9FFC44 /* [CP] Check Pods Manifest.lock */,
+				A466DD063B311C6FC876816F /* [CP] Check Pods Manifest.lock */,
 				B9CEFD3D1E94D03400397D61 /* Sources */,
 				B9CEFD3E1E94D03400397D61 /* Frameworks */,
 				B9CEFD3F1E94D03400397D61 /* Resources */,
-				1618A3DE61213816EB4E7D5C /* [CP] Embed Pods Frameworks */,
-				42D2901CBE3E89768B2202DF /* [CP] Copy Pods Resources */,
+				3F32B2F71381CD2593DC2864 /* [CP] Embed Pods Frameworks */,
+				C9F3A04485DADF0728C801F6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,6 +366,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B96A9E071EBC6A6B00B5462F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +380,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1618A3DE61213816EB4E7D5C /* [CP] Embed Pods Frameworks */ = {
+		3F32B2F71381CD2593DC2864 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -295,10 +392,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-UserInterfaceTests/Pods-UserInterfaceTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UserInterfaceTests/Pods-UserInterfaceTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1B7DC3E2EC6DE01CAC9FFC44 /* [CP] Check Pods Manifest.lock */ = {
+		5EC8B05C5799B8AFED1BEDF8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -310,10 +407,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		42D2901CBE3E89768B2202DF /* [CP] Copy Pods Resources */ = {
+		7A27CF1DC49070A9BF19C928 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -325,10 +422,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-UserInterfaceTests/Pods-UserInterfaceTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UserInterface/Pods-UserInterface-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5FAD76AAB624C9D448124864 /* [CP] Check Pods Manifest.lock */ = {
+		A466DD063B311C6FC876816F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -340,10 +437,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		C09366CF109217187EEB7FF7 /* [CP] Copy Pods Resources */ = {
+		C9F3A04485DADF0728C801F6 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -355,7 +452,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Umalahokan-ServiceProvider-UserInterface/Pods-Umalahokan-ServiceProvider-UserInterface-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UserInterfaceTests/Pods-UserInterfaceTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -365,7 +462,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B96A9DE51EBC69AD00B5462F /* RemoteDatabaseAccess.swift in Sources */,
+				B96A9DFF1EBC69F500B5462F /* Contact.swift in Sources */,
+				B96A9DE41EBC69AD00B5462F /* RemoteDatabase.swift in Sources */,
+				B96A9DF41EBC69D300B5462F /* LoginScene.swift in Sources */,
+				B96A9DFE1EBC69F500B5462F /* AuthService.swift in Sources */,
 				B9CEFD541E94D05900397D61 /* LoginViewController.swift in Sources */,
+				B96A9DF21EBC69D300B5462F /* LoginModule.swift in Sources */,
+				B96A9DE61EBC69AD00B5462F /* RemoteDatabaseSource.swift in Sources */,
+				B96A9DDF1EBC69AD00B5462F /* AuthRemoteService.swift in Sources */,
+				B96A9DF51EBC69D300B5462F /* LoginWireframe.swift in Sources */,
+				B96A9E001EBC69F500B5462F /* DatabaseAccess.swift in Sources */,
+				B96A9DE01EBC69AD00B5462F /* AuthServiceErrorExtension.swift in Sources */,
+				B96A9DE81EBC69AD00B5462F /* UserExtension.swift in Sources */,
+				B96A9DF01EBC69D300B5462F /* LoginArbiter.swift in Sources */,
+				B96A9E021EBC69F500B5462F /* Mood.swift in Sources */,
+				B96A9DF31EBC69D300B5462F /* LoginPresenter.swift in Sources */,
+				B96A9DE11EBC69AD00B5462F /* DatabaseAccessErrorExtension.swift in Sources */,
+				B96A9DE31EBC69AD00B5462F /* FirebaseHelper.swift in Sources */,
+				B96A9DF11EBC69D300B5462F /* LoginInteractor.swift in Sources */,
+				B96A9DE71EBC69AD00B5462F /* ResourcePath.swift in Sources */,
+				B96A9E041EBC69F500B5462F /* UserService.swift in Sources */,
+				B96A9DE21EBC69AD00B5462F /* FIRDataSnapshotExtension.swift in Sources */,
+				B96A9E011EBC69F500B5462F /* DatabaseProtocol.swift in Sources */,
+				B96A9E031EBC69F500B5462F /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,7 +610,7 @@
 		};
 		B9CEFD4D1E94D03400397D61 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58A4C1B5EA40E64B5873FEED /* Pods-Umalahokan-ServiceProvider-UserInterface.debug.xcconfig */;
+			baseConfigurationReference = D278872BCC5535328D30EA39 /* Pods-UserInterface.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_MODULES = YES;
@@ -513,7 +633,7 @@
 		};
 		B9CEFD4E1E94D03400397D61 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7768E72473C33863DD0AB5A3 /* Pods-Umalahokan-ServiceProvider-UserInterface.release.xcconfig */;
+			baseConfigurationReference = 1D4A4113126A30DAB8920F8B /* Pods-UserInterface.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_MODULES = YES;
@@ -535,7 +655,7 @@
 		};
 		B9CEFD501E94D03400397D61 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FE4497850B15F3AA60FA98F /* Pods-UserInterfaceTests.debug.xcconfig */;
+			baseConfigurationReference = 88229F419B4D8D9765F2C3B0 /* Pods-UserInterfaceTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CLANG_ENABLE_MODULES = YES;
@@ -551,7 +671,7 @@
 		};
 		B9CEFD511E94D03400397D61 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1C01715632DCAD3CDF8086D /* Pods-UserInterfaceTests.release.xcconfig */;
+			baseConfigurationReference = 654185DE18237E28C75F2656 /* Pods-UserInterfaceTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CLANG_ENABLE_MODULES = YES;
