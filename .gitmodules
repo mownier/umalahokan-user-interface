@@ -4,3 +4,6 @@
 [submodule "Modules/Login"]
 	path = Modules/Login
 	url = https://github.com/mownier/umalahokan-login.git
+[submodule "Modules/ServiceProvider"]
+	path = Modules/ServiceProvider
+	url = https://github.com/mownier/umalahokan-service-provider
