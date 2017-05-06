@@ -19,10 +19,13 @@ public class LoginViewController: UIViewController  {
     
     public override func loadView() {
         let loginView = UIView(frame: UIScreen.main.bounds)
+        loginView.backgroundColor = UIColor.white
         
         emailTextField = UITextField()
         passwordTextField = UITextField()
         loginButton = UIButton()
+        
+        emailTextField.backgroundColor = UIColor.green
         
         loginView.addSubview(emailTextField)
         loginView.addSubview(passwordTextField)
@@ -32,7 +35,13 @@ public class LoginViewController: UIViewController  {
     }
     
     public override func viewDidLayoutSubviews() {
+        var rect = CGRect.zero
         
+        rect.size.width = view.frame.width - 48
+        rect.size.height = 42
+        rect.origin.y = 20
+        rect.origin.x = (view.frame.width - rect.width) / 2
+        emailTextField.frame = rect
     }
 }
 
