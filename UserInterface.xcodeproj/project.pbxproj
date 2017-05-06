@@ -41,6 +41,7 @@
 		B9C7197D1EBD8C6200FC89C3 /* LoginWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C719771EBD8C6200FC89C3 /* LoginWireframe.swift */; };
 		B9C719811EBD8DA400FC89C3 /* LoginModuleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C7197F1EBD8DA400FC89C3 /* LoginModuleTest.swift */; };
 		B9C719821EBD8DA400FC89C3 /* LoginViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C719801EBD8DA400FC89C3 /* LoginViewControllerTest.swift */; };
+		B9C719841EBD9C8B00FC89C3 /* LoginModuleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C719831EBD9C8B00FC89C3 /* LoginModuleExtension.swift */; };
 		FE4419A3DE09DBCBBE7CA618 /* Pods_UserInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD54494C7C798B185ACB829 /* Pods_UserInterface.framework */; };
 /* End PBXBuildFile section */
 
@@ -104,6 +105,7 @@
 		B9C719771EBD8C6200FC89C3 /* LoginWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginWireframe.swift; path = Modules/Login/Login/LoginWireframe.swift; sourceTree = "<group>"; };
 		B9C7197F1EBD8DA400FC89C3 /* LoginModuleTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModuleTest.swift; sourceTree = "<group>"; };
 		B9C719801EBD8DA400FC89C3 /* LoginViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewControllerTest.swift; sourceTree = "<group>"; };
+		B9C719831EBD9C8B00FC89C3 /* LoginModuleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModuleExtension.swift; sourceTree = "<group>"; };
 		BDF26AA5AD570201CB54323C /* Pods-UserInterfaceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserInterfaceUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UserInterfaceUITests/Pods-UserInterfaceUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C785BD705FE00FC528713B45 /* Pods_UserInterfaceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UserInterfaceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D83E034C2577AFA46B90B577 /* Pods-UserInterface.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserInterface.release.xcconfig"; path = "Pods/Target Support Files/Pods-UserInterface/Pods-UserInterface.release.xcconfig"; sourceTree = "<group>"; };
@@ -178,7 +180,7 @@
 				B9C719461EBD8BAD00FC89C3 /* Application */,
 				B9C719451EBD8BA600FC89C3 /* Resources */,
 				B9C719471EBD8BB400FC89C3 /* Support Files */,
-				B9C7194A1EBD8BE700FC89C3 /* ViewControllers */,
+				B9C7194A1EBD8BE700FC89C3 /* Source */,
 			);
 			path = UserInterface;
 			sourceTree = "<group>";
@@ -228,12 +230,13 @@
 			name = "Support Files";
 			sourceTree = "<group>";
 		};
-		B9C7194A1EBD8BE700FC89C3 /* ViewControllers */ = {
+		B9C7194A1EBD8BE700FC89C3 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				B9C719481EBD8BDE00FC89C3 /* LoginViewController.swift */,
+				B9C719831EBD9C8B00FC89C3 /* LoginModuleExtension.swift */,
 			);
-			name = ViewControllers;
+			name = Source;
 			sourceTree = "<group>";
 		};
 		B9C7195F1EBD8C1000FC89C3 /* Modules */ = {
@@ -611,6 +614,7 @@
 				B9C7197A1EBD8C6200FC89C3 /* LoginModule.swift in Sources */,
 				B9C719551EBD8C0C00FC89C3 /* AuthRemoteService.swift in Sources */,
 				B9C719781EBD8C6200FC89C3 /* LoginArbiter.swift in Sources */,
+				B9C719841EBD9C8B00FC89C3 /* LoginModuleExtension.swift in Sources */,
 				B9C7196F1EBD8C4000FC89C3 /* User.swift in Sources */,
 				B9C719491EBD8BDE00FC89C3 /* LoginViewController.swift in Sources */,
 				B9C7195D1EBD8C0C00FC89C3 /* ResourcePath.swift in Sources */,
