@@ -11,9 +11,9 @@ import XCTest
 
 class LoginModuleTest: XCTestCase {
     
-    func testInitialization() {
+    func testCreate() {
         FirebaseHelper.configureApp()
-        let module = LoginModule()
+        let module = LoginModule.create()
         XCTAssertTrue(module.scene is LoginViewController)
         
         let vc = module.scene as! LoginViewController
